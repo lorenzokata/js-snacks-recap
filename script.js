@@ -20,7 +20,7 @@ function getSubArray(array, a, b) {
     }
 
     const newArray = array.filter((item, i) => {
-        console.log(item, i);
+        
         return i>=a && i<=b;
     });
     
